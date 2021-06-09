@@ -4,7 +4,7 @@ const {token} = require('./config.json')
 const client = new Discord.Client()
 
 client.on("ready", async() => {
- console.log(`[INFO]  Le logger est fonctionnel Logger by  Bl4ck`)})
+ console.log(`[INFO]  Le logger est fonctionnel Logger by  Xtasyy`)})
 
  client.on("guildCreate", guild => {
   console.log(`[INFO]` + ` Vous avez rejoint ` + `${guild.name}`)
